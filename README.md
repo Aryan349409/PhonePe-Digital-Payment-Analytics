@@ -1,180 +1,206 @@
 # 📱 PhonePe Digital Payment Analytics
 
-> An end-to-end Business Intelligence project built using **Power BI, Excel, Power Query, and DAX** to analyze digital payment transactions, identify business trends, monitor KPIs, and generate actionable insights.
-
-![Dashboard Preview](Dashboard/PhonePe Dashboard Preview.png)
+An end-to-end **Business Intelligence** project built using **Power BI, Excel, Power Query, and DAX** to analyze over **50,000 digital payment transactions**. The dashboard provides interactive insights into transaction performance, payment success rates, service-wise analysis, seasonal trends, and business recommendations.
 
 ---
 
-## 📌 Project Overview
+# 📊 Dashboard Preview
 
-This project analyzes **50,000+ PhonePe digital payment transactions** across four major service categories:
-
-- 💰 Loans
-- 🛡 Insurance
-- 💸 Money Transfer
-- 📱 Recharge & Bills
-
-The dashboard helps monitor transaction performance, payment success rates, failure reasons, monthly trends, and service-wise contributions using interactive visualizations.
+<p align="center">
+  <img src="Dashboard/PhonePe%20Dashboard%20Preview.png" alt="PhonePe Dashboard" width="100%">
+</p>
 
 ---
 
-## 🎯 Business Objective
+# 📌 Project Overview
 
-The objective of this project is to transform raw transaction data into meaningful business insights by answering questions such as:
+The objective of this project is to transform raw PhonePe transaction data into meaningful business insights through interactive dashboards and KPI reporting.
 
-- Which service generates the highest transaction value?
-- What are the major reasons for payment failures?
-- Which months experience peak transaction volume?
-- What is the overall payment success rate?
-- Which business areas require operational improvements?
+The dashboard enables stakeholders to:
+
+- Monitor overall transaction performance
+- Track payment success and failure rates
+- Analyze service-wise revenue contribution
+- Identify seasonal transaction trends
+- Understand failure reasons
+- Support data-driven business decisions
 
 ---
 
-## 📊 Dashboard Pages
+# 🎯 Business Problem
+
+Digital payment platforms process millions of transactions every day. Monitoring platform performance manually is difficult due to large volumes of data.
+
+This project solves that challenge by creating an interactive dashboard that provides:
+
+- Real-time style KPI monitoring
+- Transaction trend analysis
+- Service category comparison
+- Payment failure diagnostics
+- Executive-level business insights
+
+---
+
+# 📈 Dashboard Pages
 
 | Dashboard | Description |
 |-----------|-------------|
-| 🏠 Home | Overall business performance and KPIs |
+| 🏠 Home | Overall business performance & KPIs |
 | 🛡 Insurance | Insurance transaction analysis |
-| 💰 Loans | Loan transaction insights |
-| 💸 Money Transfer | Transfer trends and payment analysis |
-| 📱 Recharge & Bills | Utility payment performance |
+| 💰 Loans | Loan performance dashboard |
+| 💸 Money Transfer | Money transfer insights |
+| 📱 Recharge & Bills | Utility payment analysis |
 
 ---
 
-## 📈 Key KPIs
+# 📊 Key Performance Indicators (KPIs)
 
-- ₹3.33 Billion+ Total Transaction Amount
-- 300K Total Transactions
-- 288K Successful Transactions
-- 12K Failed Transactions
-- 96.75% Payment Success Rate
-- Monthly Transaction Trend Analysis
-- Service-wise Revenue Distribution
-- Failure Reason Analysis
-
----
-
-## 🛠 Tools & Technologies
-
-- Microsoft Power BI
-- Microsoft Excel
-- Power Query
-- DAX
-- Data Cleaning
-- Data Modeling
-- KPI Reporting
-- Dashboard Design
-- Business Analytics
+| KPI | Value |
+|------|-------|
+| Total Transaction Amount | ₹3.33 Billion+ |
+| Total Transactions | 300K |
+| Successful Transactions | 288K |
+| Failed Transactions | 12K |
+| Success Rate | 96.75% |
+| Services Analyzed | 4 |
+| Dashboard Pages | 5 |
 
 ---
 
-## 📂 Repository Structure
+# 📂 Dataset Information
+
+- **Source:** Simulated PhonePe Transaction Dataset
+- **Format:** Microsoft Excel (.xlsx)
+- **Records:** 50,000+
+- **Time Period:** January 2024 – December 2024
+
+### Dataset Includes
+
+- User Details
+- Transaction Details
+- Insurance Data
+- Loan Transactions
+- Money Transfers
+- Recharge & Bills
+
+---
+
+# 🛠 Tools & Technologies
+
+- 📊 Power BI
+- 📈 Microsoft Excel
+- ⚡ Power Query
+- 📐 DAX
+- 🧹 Data Cleaning
+- 📉 Data Visualization
+- 📊 KPI Reporting
+- 📋 Business Intelligence
+
+---
+
+# 📁 Repository Structure
 
 ```
 PhonePe-Digital-Payment-Analytics
 │
 ├── Dashboard
-│   ├── PhonePe Dashboard.png
-│   └── PhonePe.pbix
+│   ├── PhonePe Dashboard Preview.png
+│   └── PhonePe Digital Payment Analytics.pbix
 │
 ├── Dataset
-│   └── PhonePe Dataset.xlsx
+│   └── PhonePe Digital Payment Dataset.xlsx
 │
 ├── Report
-│   └── PhonePe-Digital-Payment-Analytics.pdf
+│   └── PhonePe Digital Payment Analytics Report.pdf
 │
 ├── Presentation
-│   └── PhonePe-Digital-Payment-Analytics.pptx
+│   └── PhonePe Digital Payment Analytics Presentation.pptx
 │
-└── README.md
+├── README.md
 ```
 
 ---
+# 📊 Dashboard Features
 
-## 📥 Project Files
+✅ Interactive KPI Cards
 
-### 📊 Dashboard (.pbix)
+✅ Dynamic Filters & Slicers
 
-➡️ **Download Here**
+✅ Monthly Transaction Trends
 
-*(Add your Google Drive link)*
+✅ Service-wise Analysis
 
----
+✅ Failure Reason Analysis
 
-### 📁 Dataset (.xlsx)
+✅ Revenue Contribution
 
-➡️ **Download Here**
+✅ Business Insights
 
-*(Add your Google Drive link)*
-
----
-
-### 📄 Project Report
-
-Available inside the **Report** folder.
+✅ Clean Executive Dashboard
 
 ---
 
-### 📽 Presentation
+# 💡 Key Business Insights
 
-Available inside the **Presentation** folder.
+### 📌 Platform Performance
 
----
+- Achieved a **96.75% payment success rate**, indicating strong operational reliability.
 
-## 📊 Dashboard Features
+### 📌 Revenue Analysis
 
-✔ Interactive Filters & Slicers
+- Loan services contributed the highest transaction value among all service categories.
 
-✔ KPI Cards
+### 📌 Seasonal Trends
 
-✔ Monthly Trend Analysis
+- July and November recorded peak transaction volumes, suggesting seasonal demand patterns.
 
-✔ Service-wise Performance
+### 📌 Failure Analysis
 
-✔ Transaction Failure Analysis
+Major causes of failed transactions include:
 
-✔ Payment Success Rate Monitoring
+- Wrong PIN
+- Incorrect Payment Information
+- Insufficient Balance
+- Server Errors
 
-✔ Business Recommendations
+### 📌 Business Recommendation
 
-✔ Dynamic Visualizations
-
----
-
-## 💡 Key Business Insights
-
-- Loans contribute the highest transaction value across all services.
-- Overall payment success rate exceeds **96%**, indicating strong platform reliability.
-- Most payment failures are caused by incorrect PINs, incorrect payment information, insufficient balance, and server errors.
-- July and November record the highest transaction volumes, indicating seasonal demand.
-- Service categories contribute consistently to overall platform activity, reflecting balanced customer usage.
+- Improve server stability during peak periods.
+- Introduce balance validation before payment.
+- Enhance user validation to reduce payment errors.
+- Optimize banking integrations for better transaction reliability.
 
 ---
 
-## 🚀 Future Improvements
+# 🚀 Future Enhancements
 
 - Real-time data integration
-- Predictive analytics using Machine Learning
-- Customer segmentation
-- Fraud detection dashboard
-- Drill-through reports
-- Mobile optimized dashboard
+- Fraud Detection Dashboard
+- Customer Segmentation
+- Predictive Analytics
+- Mobile Responsive Dashboard
+- Drill-through Reports
+- AI-powered Insights
 
 ---
 
-## 👨‍💻 About Me
+# 🔗 Connect With Me
 
-**Aryan Rai**
+<p align="left">
 
-Aspiring Data Analyst passionate about Business Intelligence, Data Visualization, SQL, Power BI, Excel, Python, and Analytics.
+📧 **Email:**  
+**aryanrai8572@gmail.com**
 
-### Connect with Me
+💼 **LinkedIn:**  
+https://www.linkedin.com/in/aryanrai-data
 
-- LinkedIn: https://linkedin.com/in/YOUR-LINKEDIN
-- GitHub: https://github.com/YOUR_GITHUB_USERNAME
+💻 **GitHub:**  
+https://github.com/YOUR_GITHUB_USERNAME
 
----
+</p>
 
-## ⭐ If you found this project useful, consider giving it a Star!
+# ⭐ Support
+
+If you found this project useful, please consider **starring ⭐ this repository**.
+
+It motivates me to build and share more data analytics projects.
