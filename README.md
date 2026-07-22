@@ -2,7 +2,7 @@
 
 > An end-to-end Business Intelligence project built using **Power BI, Excel, Power Query, and DAX** to analyze digital payment transactions, identify business trends, monitor KPIs, and generate actionable insights.
 
-![Dashboard Preview](Dashboard/PhonePe%20Dashboard.png)
+![Dashboard Preview](Dashboard/PhonePe Dashboard Preview.png)
 
 ---
 
